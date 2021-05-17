@@ -6,6 +6,7 @@
 }
 
 
+
 @import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
     .head{
     display:flex;
@@ -16,10 +17,18 @@
       padding-left:100px;
       flex:2;
     }
+    .hunger{
+      font-weight:600px;
+    }
+    
     .but{
       border-radius: 0;
       
 
+    }
+    .logo{
+      width:200px;
+      height:82.65px;
     }
 
     form.search input[type=text] {
@@ -38,38 +47,40 @@
       color: #fff;
     }
     .leftside,.rightside{
-    height:60vh;
+    
     width: 100%;  
+
     }
     .leftside{
 
      padding-left: 50px;
 
     }
-    .rightside {
-      
-
+    @media only screen  and (max-width:767px){
+    
+.rightside{
+  height:444px;
+}
     }
-    @media screen  and (min-width:900px){
-      .leftside,.rightside{
-        height:60vh;
-
+    @media only screen  and (max-width:900px){
+    
+      .signup{
+        padding-left:0px;
+        margin-left:20px;
       }
-      .rightside{
-    padding-left:  60px;
-       
-
-      }
+  
     }
+
     .para{
       font-size: 24px;
     font-weight: 300;
-    width: 600px;
+    width:auto;
     margin-top: 0;
     margin-bottom: 0;
     line-height: 40px;
     letter-spacing: -.3px;
     color: #686b78;
+
     }
     .para2
     {
@@ -82,7 +93,7 @@
 
     }
     .cities{
-      width: 570px;
+      width: auto;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -113,7 +124,7 @@
 .d2{
   background: #2b1e16;
 
-  height:80vh;
+  
   width: 100%; 
 
 }
@@ -131,10 +142,24 @@
   font-size: 15px;
 
 
-  color: #e0cbc1;
-  line-height: 1.3;
-}
-.d3{
+  color: #e        <div>
+  <h3 class="para2">POPULAR CITIES IN INDIA</h3>
+
+   <ul class="cities">
+       <li class="city city_style">Ahmedabad</li>
+       <li class="city city_style2">Bangalore</li>
+       <li class="city city_style">Chennai</li>
+       <li class="city city_style2">Delhi</li>
+       <li class="city city_style">Gurgaon</li>
+       <li class="city city_style2">Hyderabad</li>
+       <li class="city city_style">kolkata</li>
+       <li class="city city_style2">Mumbai</li>
+       <li class="city city_style">Pune</li>
+       <li class="city city_style2">& more</li>
+
+   </ul>
+
+</div>
   
 
 padding-top: 80px;
@@ -144,14 +169,14 @@ padding-top: 80px;
 
   font-size: 40px;
   font-weight: 600;
-  width: 300px;
+  width: auto;
   line-height: 1;
   letter-spacing: -.45px;
 }
 .txt5{
 
   font-size: 20px;
-    width: 400px;
+    width: auto;
     font-weight: 300;
     padding-top: 20px;
     padding-bottom: 60px;
